@@ -546,28 +546,6 @@ local ClosureBindings = {
 				SubTitle = Config.SubTitle,
 				TabWidth = Config.TabWidth,
 			})
-						local size = {30, 30}
-			local ButtonNevcit = New("ImageButton", {
-				Parent = Nevcit,
-				Image = "rbxassetid://114587443832683",
-				Size = UDim2.new(0, size[1], 0, size[1]),
-				Position = UDim2.new(0.15, 0, 0.15, 0),
-				BackgroundColor3 = Color3.fromRGB(255, 255, 255),
-				Active = true,
-				Draggable = true
-			})
-			local UIStrokeNevcit = New("UIStroke", {
-				Parent = ButtonNevcit,
-				Thickness = 4,
-				Color = Color3.fromRGB(0, 0, 0)
-			})
-			uiconnectionNevcit = ButtonNevcit.MouseButton1Click:Connect(function()
-				if Library.Window and Library.Window.AcrylicPaint.Frame.Visible == true then
-					Library.Window.AcrylicPaint.Frame.Visible = false
-				elseif Library.Window and Library.Window.AcrylicPaint.Frame.Visible == false then
-					Library.Window.AcrylicPaint.Frame.Visible = true
-				end
-			end)
 				
 			Library.MinimizeKey = Config.MinimizeKey
 			Library.UseAcrylic = false
