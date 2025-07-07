@@ -429,7 +429,7 @@ local ClosureBindings = {
 			Parent = RunService:IsStudio() and LocalPlayer.PlayerGui or game:GetService("CoreGui"),
 			Name = "FLUENT"
 		})
-		local nevcit = New("ScreenGui", {
+		local Nevcit = New("ScreenGui", {
 			Parent = RunService:IsStudio() and LocalPlayer.PlayerGui or game:GetService("CoreGui"),
 			Name = "Nevcit"
 		})
