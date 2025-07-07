@@ -561,9 +561,9 @@ local ClosureBindings = {
 				Color = Color3.fromRGB(0, 0, 0)
 			})
 			uiconnectionNevcit = ButtonNevcit.MouseButton1Click:Connect(function()
-				if Window.Visible == true then
+				if Library.Window and Library.Window.AcrylicPaint.Frame.Visible == true then
 					Window.Visible = false
-				elseif Window.Visible == false then
+				elseif Library.Window and Library.Window.AcrylicPaint.Frame.Visible == false then
 					Window.Visible = true
 				end
 			end)
