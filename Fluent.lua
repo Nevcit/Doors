@@ -437,7 +437,7 @@ local ClosureBindings = {
 
 
 		ProtectGui(GUI)
-		ProtectGui(nevcit)
+		ProtectGui(Nevcit)
 		NotificationModule:Init(GUI)
 
 		local Library = {
