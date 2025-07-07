@@ -423,7 +423,6 @@ local ClosureBindings = {
 		local NotificationModule = require(Components.Notification)
 
 		local New = Creator.New
-		local uiconnectionNevcit
 		local ProtectGui = protectgui or (syn and syn.protect_gui) or function() end
 		local GUI = New("ScreenGui", {
 			Parent = RunService:IsStudio() and LocalPlayer.PlayerGui or game:GetService("CoreGui"),
