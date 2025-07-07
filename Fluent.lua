@@ -562,9 +562,9 @@ local ClosureBindings = {
 			})
 			uiconnectionNevcit = ButtonNevcit.MouseButton1Click:Connect(function()
 				if Library.Window and Library.Window.AcrylicPaint.Frame.Visible == true then
-					Window.Visible = false
+					Library.Window.AcrylicPaint.Frame.Visible = false
 				elseif Library.Window and Library.Window.AcrylicPaint.Frame.Visible == false then
-					Window.Visible = true
+					Library.Window.AcrylicPaint.Frame.Visible = true
 				end
 			end)
 				
