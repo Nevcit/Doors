@@ -2438,7 +2438,7 @@ local ClosureBindings = {
 			local uiconnectionNevcit
 			local ProtectGui = protectgui or (syn and syn.protect_gui)
 			local Nevcit = New("ScreenGui", {
-				Parent = RunService:IsStudio() and game.Players.LocalPlayer.PlayerGui or game:GetService("CoreGui"),
+				Parent = game:GetService("RunService"):IsStudio() and game.Players.LocalPlayer.PlayerGui or game:GetService("CoreGui"),
 				Name = "Nevcit"
 			})
 			ProtectGui(Nevcit)
