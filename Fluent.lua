@@ -546,6 +546,7 @@ local ClosureBindings = {
 				SubTitle = Config.SubTitle,
 				TabWidth = Config.TabWidth,
 			})
+			local size = {30, 30}
 			local ButtonNevcit = New("ImageButton", {
 				Parent = Nevcit,
 				Image = "rbxassetid://114587443832683",
