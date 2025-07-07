@@ -429,10 +429,7 @@ local ClosureBindings = {
 			Name = "FLUENT"
 		})
 
-
-
 		ProtectGui(GUI)
-		ProtectGui(Nevcit)
 		NotificationModule:Init(GUI)
 
 		local Library = {
