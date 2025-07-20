@@ -2380,7 +2380,7 @@ local ClosureBindings = {
 			ProtectGui(Nevcit)
 			local size = {30, 30}
 			local ButtonNevcit = New("ImageButton", {
-				Parent = Nevcit,
+				Parent = Config.Parent,
 				Image = "rbxassetid://114587443832683",
 				Size = UDim2.new(0, size[1], 0, size[1]),
 				Position = UDim2.new(0.15, 0, 0.15, 0),
@@ -2409,7 +2409,7 @@ local ClosureBindings = {
 					uiconnectionNevcit:Disconnect()
 					uiconnectionNevcit = nil
 				end
-				Nevcit:Destroy()
+				ButtonNevcit:Destroy()
 				Window.Root:Destroy()
 			end
 
